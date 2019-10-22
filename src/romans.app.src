@@ -1,0 +1,15 @@
+{application, romans,
+ [{description, "A roman to arabic numeral conversion library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, [<<"Álvaro Pagliari"/utf8>>]},
+  {licenses, []},
+  {links, []}
+ ]}.
