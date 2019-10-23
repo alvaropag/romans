@@ -167,6 +167,8 @@ validate_input_repeated([$V, $X| _Resto], Acc) ->
   [false | Acc];
 validate_input_repeated([$X, $M| _Resto], Acc) ->
   [false | Acc];
+validate_input_repeated([$X, $D| _Resto], Acc) ->
+  [false | Acc];	
 validate_input_repeated([$L, $L| _Resto], Acc) ->
   [false | Acc];
 validate_input_repeated([$L, $M| _Resto], Acc) ->
