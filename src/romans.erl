@@ -39,12 +39,6 @@ to_int(Value) ->
 -spec roman_to_int(list()) -> fail | pos_integer().
 roman_to_int([]) ->
   0;
-roman_to_int([$V, $V | _]) ->
-  fail;
-roman_to_int([$L, $L | _]) ->
-  fail;
-roman_to_int([$D, $D | _]) ->
-  fail;
 roman_to_int(List) ->
   RArr = roman_to_array(List),
   RArrSignaled = resolve_roman_array_signals(RArr),
